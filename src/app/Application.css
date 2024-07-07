@@ -1,0 +1,16 @@
+.root {
+    -fx-background-color: #ADD8E6;
+}
+
+.label {
+    -fx-font-size: 11;
+    -fx-font-family: "Lucida Console";
+    -fx-text-fill: "green";
+    -fx-alignment: center;
+}
+
+/*
+#lbCurrentLocation {
+    -fx-font-weight: 5;
+}
+*/
