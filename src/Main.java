@@ -15,7 +15,7 @@ public class Main extends Application {
             String css = this.getClass().getResource("Application.css").toExternalForm();
             scene.getStylesheets().add(css);
 
-            Image icon = new Image("/other/minecraft_Block.png");
+            Image icon = new Image("other/minecraft_Block.png");
             stage.getIcons().add(icon);
             stage.setTitle("MCTool App");
 
