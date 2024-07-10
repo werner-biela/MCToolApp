@@ -11,9 +11,10 @@
    <children>
       <CheckBox fx:id="cbNetherCord" layoutX="167.0" layoutY="135.0" mnemonicParsing="false" text="Nether Location" />
       <TextField fx:id="textFieldXCord" layoutX="137.0" layoutY="10.0" prefHeight="15.0" prefWidth="65.0" promptText="X Cord" />
-      <TextField fx:id="textFieldYCord" layoutX="209.0" layoutY="10.0" prefHeight="15.0" prefWidth="65.0" promptText="Y Cord" />
-      <Label fx:id="lbCurrentLocation" layoutX="17.0" layoutY="8.0" prefHeight="31.0" prefWidth="122.0" text="Current Location:" />
+      <TextField fx:id="textFieldYCord" layoutX="209.0" layoutY="10.0" prefHeight="15.0" prefWidth="65.0" promptText="Z Cord" />
+      <Label layoutX="17.0" layoutY="8.0" prefHeight="31.0" prefWidth="122.0" text="Current Location:" />
       <TextArea fx:id="textAreaResults" editable="false" layoutX="17.0" layoutY="44.0" prefHeight="79.0" prefWidth="257.0" wrapText="true" />
     <Button alignment="CENTER" contentDisplay="CENTER" layoutX="17.0" layoutY="132.0" mnemonicParsing="false" onAction="#onButtonClick" text="Calculate" />
+      <Button layoutX="88.0" layoutY="132.0" mnemonicParsing="false" onAction="#clearAll" text="Clear" />
    </children>
 </AnchorPane>

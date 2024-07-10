@@ -42,6 +42,14 @@ public class Controller {
         }
     }
 
+    @FXML
+    private void clearAll() {
+        textFieldXCord.clear();
+        textFieldYCord.clear();
+        textAreaResults.clear();
+        cbNetherCord.setSelected(false);
+    }
+
     private void locateLocalChunk(String inputX, String inputY) {
         int x = Integer.parseInt(inputX);
         int y = Integer.parseInt(inputY);
@@ -55,6 +63,6 @@ public class Controller {
         int y = Integer.parseInt(inputY);
         Point P0 = new Point(x, y);
         textAreaResults.clear();
-        textAreaResults.appendText(P0.netherCord());
+        textAreaResults.appendText(P0.netherCoordinates());
     }
 }

@@ -22,7 +22,7 @@ public class Main extends Application {
             Image icon = new Image("other/minecraft_Block.png");
             stage.getIcons().add(icon);
             stage.setTitle("MCTool App");
-
+            stage.setResizable(false);
             stage.setScene(scene);
             stage.show();
 
